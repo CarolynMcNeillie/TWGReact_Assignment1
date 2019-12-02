@@ -1,3 +1,8 @@
+Web & Ecomm React Training Project 1
+https://docs.google.com/document/d/1QNQpKHdM_fJI-WcZYM4XWrFdSHzu8K3Y6JixbUfA5ek/edit
+
+Marcus Tan & Carolyn McNeillie
+
 # twg-react-project-template
 A template to make React projects based on [TWG's React project structure](https://github.com/twg/react-guidelines/blob/master/guidelines/project-structure.md).
 
