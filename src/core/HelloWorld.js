@@ -38,9 +38,7 @@ export const HelloWorldFunctional = ({ hotdog, isEnabled, children }) => {
       <p>
         Hello World, {name}! Maybe you'd like to eat a {hotdog}!
       </p>
-      <p>
         { children }
-      </p>
     </>
   )
 }
