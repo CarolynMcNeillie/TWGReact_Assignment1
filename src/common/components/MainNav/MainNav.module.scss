@@ -1,0 +1,15 @@
+.mainnav {
+  padding: 8px 33px;
+  background-color: #01251A;
+  color: #fff;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 35px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.1em;
+
+  li {
+    display: inline-block;
+  }
+}

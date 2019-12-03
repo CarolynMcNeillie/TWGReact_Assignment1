@@ -6,6 +6,7 @@ import { Accordion } from 'common/components/Accordion/index.js'
 import { HelloWorldClass } from './HelloWorld'
 import { HelloWorldFunctional } from './HelloWorld'
 import { SearchResults } from './SearchResults'
+import { PageTemplate } from './PageTemplate'
 
 // High-level routes for the application
 // Sub-routes should be nested within components
@@ -19,7 +20,9 @@ export const Routes = () => (
       </HelloWorldFunctional>
     </Route>
     <Route exact path='/search'>
-      <SearchResults/>
+      <PageTemplate>
+        <SearchResults/>
+      </PageTemplate>
     </Route>
   </Switch>
 )
