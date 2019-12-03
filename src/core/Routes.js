@@ -2,10 +2,10 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import { Accordion } from 'common/components/Accordion/index.js'
+import { SearchResults } from 'common/components/SearchResults/index.js'
 
 import { HelloWorldClass } from './HelloWorld'
 import { HelloWorldFunctional } from './HelloWorld'
-import { SearchResults } from './SearchResults'
 import { PageTemplate } from './PageTemplate'
 
 // High-level routes for the application
