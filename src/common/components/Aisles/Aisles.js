@@ -10,15 +10,15 @@ export const Aisles = () => {
       <Container>
         <div className={styles.aisles__content}>
           <a href="http://www.google.com">See All Aisles</a>
-          <ul>
-            <li>Fresh Fruits and Vegetables</li>
-            <li>Deli</li>
-            <li>Prepared Foods</li>
-            <li>Bakery</li>
-            <li>Fresh Meat and Seafood</li>
-            <li>Dairy and Eggs</li>
-            <li>Frozen</li>
-            <li>Pantry</li>
+          <ul className={styles.aisles__list}>
+            <li className={styles.aisles__list_item}>Fresh Fruits and Vegetables</li>
+            <li className={styles.aisles__list_item}>Deli</li>
+            <li className={styles.aisles__list_item}>Prepared Foods</li>
+            <li className={styles.aisles__list_item}>Bakery</li>
+            <li className={styles.aisles__list_item}>Fresh Meat and Seafood</li>
+            <li className={styles.aisles__list_item}>Dairy and Eggs</li>
+            <li className={styles.aisles__list_item}>Frozen</li>
+            <li className={styles.aisles__list_item}>Pantry</li>
           </ul>
         </div>
       </Container>

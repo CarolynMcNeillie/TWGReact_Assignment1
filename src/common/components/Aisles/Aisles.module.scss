@@ -7,12 +7,12 @@
     align-items: center;
   }
 
-  ul {
+  &__list {
     margin: 0;
     padding: 0;
   }
 
-  li {
+  &__list_item {
     display: inline-block;
     padding: 0 15px;
   }
