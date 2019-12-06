@@ -16,7 +16,7 @@ export const Routes = () => (
       <HelloWorldClass cheeseburger="cheeseburger" />
       <HelloWorldFunctional hotdog="hotdog bun" isEnabled>
         This is a child thing.
-        <Accordion title="Click click!"></Accordion>
+        <Accordion title="Click click!"><p>Hihihihi! Here I am!</p></Accordion>
       </HelloWorldFunctional>
     </Route>
     <Route exact path='/search'>

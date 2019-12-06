@@ -12,7 +12,7 @@ export const Accordion = ({ title, children }) => {
   return (
     <div className={styles.accordion}>
       <h2 onClick={toggleContent}>{title}</h2>
-      {isContentOpen ? <p>Hihihi</p> : null}
+      {isContentOpen ? children : null}
     </div>
   )
 }
