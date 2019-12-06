@@ -1,6 +1,5 @@
 import React from 'react'
 
-// import { Container } from 'common/components/Container/index.js'
 import styles from './MainNav.module.scss'
 // import Container from 'common/components/Container/index.js'
 
