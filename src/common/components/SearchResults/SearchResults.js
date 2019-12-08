@@ -6,13 +6,12 @@ import { Container } from 'common/components/Container/index.js'
 import { Result } from 'common/components/Result/index.js'
 
 export const SearchResults = () => {
-  console.log(searchResults)
+
   return (
     <div className={styles.searchResults}>
       <Container>
-        <div>
+        <ul>
           { searchResults.map(result => {
-            console.log(result)
             return (
               <Result 
                 key={result.id}
@@ -31,7 +30,7 @@ export const SearchResults = () => {
             )
           })
           }
-        </div>
+        </ul>
       </Container>
     </div>
   )

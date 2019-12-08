@@ -4,24 +4,45 @@ import styles from './Result.module.scss'
 // import Container from 'common/components/Container/index.js'
 
 export const Result = ({upc, name, rating, img, price, unit, compare, newprod, sameday, pricedrop}) => {
+  const currency = (val) => {
+    let currency = ((val/100).toFixed(2)).toString()
+    currency = currency.split('.')
+    return(
+      <>
+        <span className={styles[`result__price--dollars`]}>
+          ${currency[0]}
+        </span>
+        <span className={styles[`result__price--sr`]}>
+          .
+        </span>
+        <span className={styles[`result__price--cents`]}>
+        {currency[1]}
+        </span>
+      </>
+    )
+  }
 
   return ( 
-  <p 
+  <li 
     className={styles.result}
     data-upc={upc}
-    data-rating={rating}
+    data-pricedrop={pricedrop}
+    data-new={newprod}
+    data-sameday={sameday}
   >
-    <img src={`common/images/${img}`} alt="" width="100" height="100"/>
-    {name}
-  </p>
+    <p className={styles.result__name}>
+      {name}
+    </p>
+    <span className={styles.rating} data-rating={rating}>
+      {rating > 0 ? `Customer Rating: ${rating}` : `This product has not been rated`}
+    </span>
+    <p className={styles.result__price}>
+<span className={styles[`result__price--price`]}>{currency(price)}</span>
+  <span className={styles[`result__price--unit`]}>/{unit}</span>
+    </p>
+  </li>
   )
 }
 
-// name={result.name}
 // img={result.img[0]}
-// price={result.price}
-// unit={result.unit}
 // compare={result.compare}
-// new={result.new}
-// sameday={result.sameday}
-// pricedrop={result.pricedrop}
