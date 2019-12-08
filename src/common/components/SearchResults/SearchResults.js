@@ -10,7 +10,11 @@ export const SearchResults = () => {
     <div className={styles.searchResults}>
       <Container>
         <div>
-          Search Results!
+          { searchResults.map(result => {
+            console.log(result)
+            return result.name
+          })
+          }
         </div>
       </Container>
     </div>
