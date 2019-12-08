@@ -1,0 +1,19 @@
+.aisles {
+  color: #000;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list_item {
+    display: inline-block;
+    padding: 0 15px;
+  }
+}
