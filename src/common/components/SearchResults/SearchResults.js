@@ -10,7 +10,7 @@ export const SearchResults = () => {
   return (
     <div className={styles.searchResults}>
       <Container>
-        <ul>
+        <ul className={styles.searchResults__container}>
           { searchResults.map(result => {
             return (
               <Result 

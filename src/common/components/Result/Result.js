@@ -22,6 +22,10 @@ export const Result = ({upc, name, rating, img, price, unit, compare, newprod, s
     )
   }
 
+  const imgStyle = {
+    backgroundImage: `url(${img})`,
+  }
+
   return ( 
   <li 
     className={styles.result}
@@ -29,7 +33,12 @@ export const Result = ({upc, name, rating, img, price, unit, compare, newprod, s
     data-pricedrop={pricedrop}
     data-new={newprod}
     data-sameday={sameday}
-  >
+    data-compare={compare}
+  > 
+    <div 
+      className={styles[`result__img`]}
+      style={imgStyle}>
+    </div>
     <p className={styles.result__name}>
       {name}
     </p>
@@ -40,9 +49,11 @@ export const Result = ({upc, name, rating, img, price, unit, compare, newprod, s
 <span className={styles[`result__price--price`]}>{currency(price)}</span>
   <span className={styles[`result__price--unit`]}>/{unit}</span>
     </p>
+
+    <form action="post">
+      <button>Add to Cart</button>
+      <button>Add to List</button>
+    </form>
   </li>
   )
 }
-
-// img={result.img[0]}
-// compare={result.compare}

@@ -1,7 +1,7 @@
 export const searchResults  = [
   {
     id: 208070000009,
-    img: [`208070000009.png`],
+    img: [`https://media.grocerygateway.com/medias/00208070000009-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w0MzE0fGltYWdlL2pwZWd8aW1hZ2VzL2gwZS9oYmIvODg0MTMwMzI2MTIxNC5qcGd8OWVjYWYyNTQ2M2YwN2Q0ZDlkZTQ0ZDZkN2U2MTc4MjBlYWU5ZTAzNDY4OGI0ZGEwOWE1ZDM3YmUxZTE3YzBhOQ`],
     name: `Bananas`,
     price: 3000,
     unit: `Case`,
@@ -14,7 +14,7 @@ export const searchResults  = [
   },
   {
     id: 643126071631,
-    img: [`643126071631.png`, `643126071631-1.png`],
+    img: [`https://media.grocerygateway.com/medias/00643126071631-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzMzgxfGltYWdlL2pwZWd8aW1hZ2VzL2gxNy9oMDMvODg3OTk1MTU3NzExOC5qcGd8YmQ1M2IyOTdlYjY4MmRmYWUyZDdlNmUwMDg0YWExYmVhYjVhZDVmM2JmYmFhMjdkNDY5NGE4NWMyY2M2ZjFjZg`],
     name: `Bananas, Bunch`,
     price: 269,
     unit: `Per 3lb Bunch`,
@@ -27,7 +27,7 @@ export const searchResults  = [
   },
   {
     id: 8746,
-    img: [`8746.png`],
+    img: [`https://media.grocerygateway.com/medias/8746-1-base-conversionFormat-155-conversionFormat.png?context=bWFzdGVyfGltYWdlc3wyMDg2NXxpbWFnZS9wbmd8aW1hZ2VzL2g0YS9oM2EvODkzMDA0NTE2NTU5OC5wbmd8ZWFkZWFkNmYwZmZkOGQzY2I5NGFjNTE0ZDM3MTU1MmUzOTFkMWVmNjcxZmJkOGRlNDVjMTA2ZGE1NzRmNjAwNA`],
     name: `Bananas Organic Case`,
     price: 4200,
     unit: `Case`,
@@ -40,7 +40,7 @@ export const searchResults  = [
   },
   {
     id: 14011,
-    img: [`14011.png`],
+    img: [`https://media.grocerygateway.com/medias/14011-1-base-conversionFormat-155-conversionFormat.png?context=bWFzdGVyfGltYWdlc3wxMjMxMHxpbWFnZS9wbmd8aW1hZ2VzL2gyNS9oYjMvOTAyNjI4OTQzNDY1NC5wbmd8ZDg3NzZhOGY4ZmFmMjQ1ZjViZTlhMTNlMWNiMDU3YzBiYzI0OTFhMzk5YTNhNzQ4MzM1MzJiY2UxYjQ2M2I5MQ`],
     name: `Banana, Each`,
     price: 45,
     unit: `Each`,
@@ -53,7 +53,7 @@ export const searchResults  = [
   },
   {
     id: 64011,
-    img: [`64011.png`],
+    img: [`https://media.grocerygateway.com/medias/64011-1-base-conversionFormat-155-conversionFormat.png?context=bWFzdGVyfGltYWdlc3wyMzAyMnxpbWFnZS9wbmd8aW1hZ2VzL2g3Ni9oNDIvOTAyNjI0MTUyNzgzOC5wbmd8ZTg0Y2Y4MjIwMzk0MzA5NmJmNDljOGM4OGNmNGJmYzc4ODQ5NzgwZmU5Y2UyM2U0Yzk2MmU0NmFiNTMyNWU3Yg`],
     name: `Organic Bananas`,
     price: 260,
     unit: `Bunch`,
@@ -66,7 +66,7 @@ export const searchResults  = [
   },
   {
     id: 79656001143,
-    img: [`79656001143.png`],
+    img: [`https://media.grocerygateway.com/medias/00079656001143-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzNDQzfGltYWdlL2pwZWd8aW1hZ2VzL2gyNi9oMzEvODg0MDcxMDk3OTYxNC5qcGd8MzY2YTJiZTlkMTBkZmFlZjViY2JhODQ4ZTNiM2NiNzcwNTBhN2EzNmI0ZTY2NjA3Zjc2MGZlODlmNjlkOWQ4Yw`],
     name: `Banana Boat Aloe Vera After Sun Gel`,
     price: 849,
     unit: `480mL`,
@@ -79,7 +79,7 @@ export const searchResults  = [
   },
   {
     id: 71464270803,
-    img: [`71464270803.png`],
+    img: [`https://media.grocerygateway.com/medias/00071464270803-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzMTA1fGltYWdlL2pwZWd8aW1hZ2VzL2g4OC9oNDIvODg0MDUxNjg5NDc1MC5qcGd8Y2M4ODI4ZGI5YmUxMTc0NjZjYmFkZjdjM2MwYWU2ZmJhMTUxYWU1NmMwNGE4NzFkMzBlZmNkMDFmNWFhMzI2Yw`],
     name: `Bolthouse Strawberry Banana Smoothie`,
     price: 799,
     unit: `1.54L`,
@@ -92,7 +92,7 @@ export const searchResults  = [
   },
   {
     id: 4772,
-    img: [`4772.png`],
+    img: [`https://media.grocerygateway.com/medias/4772-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wyNDc4fGltYWdlL2pwZWd8aW1hZ2VzL2hkZi9oNDEvODgzNjE0NTI4MzEwMi5qcGd8OGVjYjJkNzY0YmYyMDk0ZmRmNjY1NGM3YWY3MDIxMTNkN2NlY2Q2Njg2MmIwZDAzMmFmYzRiMTExMTY3Zjk2Zg`],
     name: `Hot Banana Peppers`,
     price: 132,
     unit: `100-200g`,
@@ -105,7 +105,7 @@ export const searchResults  = [
   },
   {
     id: 71464270605,
-    img: [`71464270605.png`],
+    img: [`https://media.grocerygateway.com/medias/00071464270605-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzMjk5fGltYWdlL2pwZWd8aW1hZ2VzL2gxNC9oNjYvODg0MDUxMDQ3MjIyMi5qcGd8ZjI1MzcwNDgwOTU3ZDdmYTAxZjYzZGE5MTA2OTVmNTYwZmIwZjdjOThkYzllN2E0NThiMGVhNjJkNzllNzcxMQ`],
     name: `Bolthouse Strawberry Banana Smoothie`,
     price: 599,
     unit: `946mL`,
@@ -115,6 +115,123 @@ export const searchResults  = [
     new: false,
     sameday: true,
     pricedrop: true
+  },
+  {
+    id: 65000138122,
+    img: [`https://media.grocerygateway.com/medias/00065000138122-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w1MzE1fGltYWdlL2pwZWd8aW1hZ2VzL2gwMS9oNzgvODgzOTMyNDIwNTA4Ni5qcGd8NWJiMmJiMWQ2MDYwMWFjMTdlMWMzNzdmMmQ0ZWM4OGE4NDM3NTJlMzgzMzA4MWUyNTY2YjIyNzNjMmNmMDkwZQ`],
+    name: `Nestle Rice and Banana Cereal`,
+    price: 399,
+    unit: `227g`,
+    note: ``,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: true
+  },
+  {
+    id: 56920012258,
+    img: [`https://media.grocerygateway.com/medias/00056920012258-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzODQ1fGltYWdlL2pwZWd8aW1hZ2VzL2g3MS9oZTEvODgzNzA3NTEwNzg3MC5qcGd8MTc2YjY5OGY2MmFiNGFmZDUwMmNlY2QzZWM5YjYxMTU1ZDU2MGMyMDljNWM3MzkyNzMwZTBjYTZmZDhmZjlhMw`],
+    name: `Yoplait Yop, Strawberry Banana`,
+    price: 129,
+    unit: `200mL`,
+    note: `Drinkable yogurt`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 628791005259,
+    img: [`https://media.grocerygateway.com/medias/00628791005259-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w0NDM4fGltYWdlL2pwZWd8aW1hZ2VzL2g0My9oMTkvODg0MTY5MDI4NDA2Mi5qcGd8ZTNjMjBiZDc2NzgzMzIzZjFmMDYxOTMzODhiMjU0NDM3ZWYzZDViOTEzY2I0MDQwODk2MTMwMDBkNjNlOTY2Yg`],
+    name: `Tempra Infant Drops Banana`,
+    price: 699,
+    unit: `24mL`,
+    note: `Fast, effective fever and pain relief. 0-23 months.`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 67311058892,
+    img: [`https://media.grocerygateway.com/medias/00067311058892-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w0MzAzfGltYWdlL2pwZWd8aW1hZ2VzL2g2Yy9oZTgvODg0MDAwOTg0MjcxOC5qcGd8ODY1Y2YyNjhlMTRmZWFiMDQwMjI5YjY4OGJhNGExNmMyNzE0NWMzZjY0NDRiOGYxYTk0YzVlYWI0ZmQzNGYxNw`],
+    name: `Oasis Strawberry Banana Smoothie`,
+    price: 499,
+    unit: `1.75L`,
+    note: `Enjoy these rich and creamy blends made of fruits and purees.`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 772468094777,
+    img: [`https://media.grocerygateway.com/medias/00772468094777-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wxOTgxN3xpbWFnZS9qcGVnfGltYWdlcy9oZTkvaDZmLzg4NzA3MTYxNzg0NjIuanBnfDE1ZmI3NDI1M2Q5ZWIyZmU4MTBjZTgwYzcwZTRkOTVjZjIxZWJkYzIwNjE1ODQzY2Q1NzhlMGYzN2Y1YWIzMWQ`],
+    name: `Longo's Sweetened Banana Chips`,
+    price: 399,
+    unit: `250g`,
+    note: ``,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 769828120856,
+    img: [`https://media.grocerygateway.com/medias/00769828120856-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzNzQ0fGltYWdlL2pwZWd8aW1hZ2VzL2gxZS9oOGIvODg3Mjk5ODg5NTY0Ni5qcGd8ZDEwN2Y3YTUwNmNjMjM1N2IzNTZjMDJjOTE1NGNhZjYxZDg5ZDYxYzg5MGNjNzQzY2ZhMDBjNmQwNTNhMWNkMQ`],
+    name: `Melona Ice Bar Banana`,
+    price: 579,
+    unit: `Pkg of 8`,
+    note: `Indulge in refreshing. With the unique blend of a smooth and flavourful banana taste, you are sure to refreshed even on the hottest days.`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 64541314149,
+    img: [`https://media.grocerygateway.com/medias/00064541314149-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3wzOTkxfGltYWdlL2pwZWd8aW1hZ2VzL2gyNC9oYTYvODgzOTI4NTY2OTkxOC5qcGd8Mjg5ZmIyOTEwZmIzMjFmNzBhNTk2OTI1YzM3YzVhNGY5ZDNiMDk5MzAwNTI5MTUyZTA0OTJmMWY2MTY2ZTAwMw`],
+    name: `Children's Tylenol Banana Berry Twist`,
+    price: 799,
+    unit: `100mL`,
+    note: ``,
+    compare: 849,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 56920020314,
+    img: [`https://media.grocerygateway.com/medias/00056920020314-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w1MTA2fGltYWdlL2pwZWd8aW1hZ2VzL2g4Zi9oMzQvODgzNzE3MTE1MDg3OC5qcGd8NWVjZDVhZGNhNWZkODYyZmM5MGI2MmFlOWI2MTUyNzI0NTFiNGM1NjgyMDk2MjUxMTdlNmY3YzJiNDhmODQ2Mw`],
+    name: `Yoplait Minigo Duo, Blueberry-Strawberry / Strawberry-Banana / Banana-Blueberry`,
+    price: 429,
+    unit: `6x60g`,
+    note: `3% Milk Fat`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
+  },
+  {
+    id: 775323224760,
+    img: [`https://media.grocerygateway.com/medias/00775323224760-1-base-conversionFormat-155-conversionFormat.jpg?context=bWFzdGVyfGltYWdlc3w1MTU1fGltYWdlL2pwZWd8aW1hZ2VzL2hkZC9oZjQvODg0MjQ1Mzg0Mzk5OC5qcGd8ODIxYWUxODg3YmU4YWUwMzBjMjdiZDA1YTUyODdlNGY3YmQ5MGMxNTg1NTdiMGJhOGY2MzYzODY2OTY3OTU2Nw`],
+    name: `Schaaf Foods Mini Banana Loaves`,
+    price: 549,
+    unit: `650g`,
+    note: `Package of 8 cakes.`,
+    compare: 0,
+    rating: 0,
+    new: false,
+    sameday: true,
+    pricedrop: false
   }
 ]
 
