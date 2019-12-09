@@ -4,12 +4,14 @@ import styles from './SearchResults.module.scss'
 import { searchResults } from 'tests/fixtures/searchResults.js'
 import { Container } from 'common/components/Container/index.js'
 import { Result } from 'common/components/Result/index.js'
+import { SearchHeader } from 'common/components/SearchHeader/index.js'
 
 export const SearchResults = () => {
 
   return (
     <div className={styles.searchResults}>
       <Container>
+        <SearchHeader resultCount={searchResults.length} searchTerm="Bananas"/>
         <ul className={styles.searchResults__container}>
           { searchResults.map(result => {
             return (

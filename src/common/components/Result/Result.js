@@ -52,7 +52,7 @@ export const Result = ({upc, name, rating, img, price, unit, compare, newprod, s
 
     <form action="post">
       <button>Add to Cart</button>
-      <button>Add to List</button>
+      <button>+<span className="sr">Add to List</span></button>
     </form>
   </li>
   )

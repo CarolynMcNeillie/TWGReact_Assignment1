@@ -1,0 +1,15 @@
+.searchHeader {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(54, 54, 54);
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+
+  &__count, &__term {
+    color: #555;
+    text-transform: uppercase;
+  }
+}

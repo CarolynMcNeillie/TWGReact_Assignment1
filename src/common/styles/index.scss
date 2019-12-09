@@ -8,3 +8,28 @@ body {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
+button, .btn {
+  background: #003928;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: 0.2s all ease-in-out;
+  text-decoration: none;
+  line-height: 1;
+
+  &:hover {
+    color: #2bb673;
+  }
+}
+
+.sr {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}

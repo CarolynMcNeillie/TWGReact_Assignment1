@@ -9,7 +9,7 @@ export const Aisles = () => {
     <nav className={styles.aisles}>
       <Container>
         <div className={styles.aisles__content}>
-          <a href="http://www.google.com">See All Aisles</a>
+          <a href="http://www.google.com" className="btn">See All Aisles</a>
           <ul className={styles.aisles__list}>
             <li className={[styles[`aisles__list--item`]]}>Fresh Fruits and Vegetables</li>
             <li className={[styles[`aisles__list--item`]]}>Deli</li>
