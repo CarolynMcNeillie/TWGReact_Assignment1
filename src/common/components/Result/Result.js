@@ -33,9 +33,12 @@ export const Result = ({
 
   return (
     <li
-      className={styles.result}
+      className={
+        pricedrop
+          ? `${styles.result} ${styles.result__pricedrop}`
+          : styles.result
+      }
       data-upc={upc}
-      data-pricedrop={pricedrop}
       data-new={newprod}
       data-sameday={sameday}
       data-compare={compare}

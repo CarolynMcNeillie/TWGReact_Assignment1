@@ -19,7 +19,7 @@
 
     &:hover {
       color: #17673d;
-      transition: color .3s ease,border-bottom .3s ease;
+      transition: color .3s ease, border-bottom .3s ease;
     }
   }
 
@@ -34,7 +34,7 @@
     position: relative;
   }
 
-  &[data-pricedrop="true"] {
+  &__pricedrop {
     &::before {
       content: "price drop";
       position: absolute;
@@ -59,8 +59,8 @@
       top: 30px;
       left: calc(50%);
       transform: translateX(-50%);
-      width: 0; 
-      height: 0; 
+      width: 0;
+      height: 0;
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
       border-top: 15px solid #db274b;
